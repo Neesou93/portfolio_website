@@ -9,6 +9,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioObjectsComponent } from './portfolio-objects/portfolio-objects.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { FooterComponent } from './footer/footer.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
     PortfolioComponent,
     PortfolioObjectsComponent,
     AboutMeComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
