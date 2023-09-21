@@ -1,0 +1,58 @@
+.about-me-section {
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-me-text-section {
+  width: 471px;
+  //margin-left: 100px;
+  line-height: 120%;
+
+  h2 {
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.personal-info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.halfbody-picture-section {
+    display: flex;
+    justify-content: center;
+  width: 50%;
+  img {
+    width: 593px;
+  }
+  background-image: url('/assets/img/color_about_me.png');
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
+
+.vector-about-me {
+  width: 100%;
+  position: absolute;
+  top: 1360px;
+  z-index: 1;
+}

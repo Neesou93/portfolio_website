@@ -1,0 +1,35 @@
+@import "/src/styles/colores.scss";
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 100px; 
+  background: $dark-blue-BG;
+  backdrop-filter: blur(32.5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%; 
+  overflow-x: auto;
+  z-index: 99;
+}
+
+.button-menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 29px;
+
+  a {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    //font-size: 32px;
+    &:hover {
+      color: $green;
+    }
+  }
+}
