@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class WelcomeComponent {
 
+  scrollToTheContact(){
+    document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})
+  }
 }
