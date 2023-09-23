@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .about-me-content {
@@ -68,5 +69,33 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (max-width: 540px){
+  .about-me-text-section{
+    width: 80%;
+    h2{
+      font-size: 60px;
+    }
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (max-width: 380px){
+  .about-me-text-section{
+    width: 80%;
+    h2{
+      font-size: 50px;
+    }
+    p {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
   }
 }

@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  img{
+  img {
     max-width: 40%;
   }
 }
@@ -117,101 +117,103 @@
   font-weight: 400;
 }
 
-@media (max-width: 1300px){
-  .rotat-text{
-    font-size: 5rem
+@media (max-width: 1300px) {
+  .rotat-text {
+    font-size: 5rem;
   }
-  .name-text{
-    font-size: 9rem
+  .name-text {
+    font-size: 9rem;
   }
-  .job-title{
-    font-size: 4rem
+  .job-title {
+    font-size: 4rem;
   }
 }
 
-@media (max-width: 1130px){
-  .rotat-text{
-    font-size: 4rem
+@media (max-width: 1130px) {
+  .rotat-text {
+    font-size: 4rem;
   }
-  .name-text{
-    font-size: 8rem
+  .name-text {
+    font-size: 8rem;
   }
-  .job-title{
-    font-size: 3rem
+  .job-title {
+    font-size: 3rem;
   }
-  .cta-text-arrow{
+  .cta-text-arrow {
     right: 50px;
   }
 }
 
-@media (max-width: 1000px){
-  .rotat-text{
-    font-size: 3rem
+@media (max-width: 1000px) {
+  .rotat-text {
+    font-size: 3rem;
   }
-  .name-text{
-    font-size: 5rem
+  .name-text {
+    font-size: 5rem;
   }
-  .job-title{
-    font-size: 2rem
+  .job-title {
+    font-size: 2rem;
   }
-  .cta-text-arrow{
+  .cta-text-arrow {
     right: 45px;
   }
 }
 
-@media (max-width: 850px){
-  .rotat-text{
-    font-size: 2rem
+@media (max-width: 850px) {
+  .rotat-text {
+    font-size: 2rem;
   }
-  .name-text{
-    font-size: 4rem
+  .name-text {
+    font-size: 4rem;
   }
-  .job-title{
-    font-size: 2rem
+  .job-title {
+    font-size: 2rem;
   }
-  .cta-text-arrow{
+  .cta-text-arrow {
     right: 10px;
   }
 }
 
-@media (max-width: 660px){
-  .rotat-text{
-    font-size: 2rem
+@media (max-width: 660px) {
+  .rotat-text {
+    font-size: 2rem;
   }
-  .name-text{
-    font-size: 4rem
+  .name-text {
+    font-size: 4rem;
   }
-  .job-title{
-    font-size: 2rem
+  .job-title {
+    font-size: 2rem;
   }
 }
 
-@media (max-width: 500px){
-  .rotat-text{
-    font-size: 1.5rem
-  }
-  .name-text{
-    font-size: 3rem
-  }
-  .job-title{
-    font-size: 1.5rem
-  }
-  .d-none{
+@media (max-width: 575px) {
+  .d-none {
     display: none;
   }
-  .cta-btn-welcome{
+}
+@media (max-width: 500px) {
+  .rotat-text {
+    font-size: 1.5rem;
+  }
+  .name-text {
+    font-size: 3rem;
+  }
+  .job-title {
+    font-size: 1.5rem;
+  }
+  .cta-btn-welcome {
     font-size: 17px;
   }
 }
 
-@media (max-width: 380px){
-  .rotat-text{
-    font-size: 1rem
+@media (max-width: 380px) {
+  .rotat-text {
+    font-size: 1rem;
   }
-  .name-text{
-    font-size: 2rem
+  .name-text {
+    font-size: 2rem;
   }
-  .job-title{
-    font-size: 1rem
+  .job-title {
+    font-size: 1rem;
   }
 }

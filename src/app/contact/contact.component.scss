@@ -155,8 +155,8 @@
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   border: 2px solid $light-blue;
   background-color: transparent;
   border-radius: 4px;
@@ -202,7 +202,22 @@
     width: auto;
   }
 }
-
+@media (max-width: 1150px) {
+  .contact-header {
+    h1 {
+      font-size: 65px;
+    }
+  }
+  .contact-info-section {
+    .contact-info-text {
+      width: 450px;
+      margin-left: 10px;
+    }
+  }
+  .line-info-contact {
+    width: 10px !important;
+  }
+}
 @media (max-width: 500px) {
   .contact-header {
     h1 {
