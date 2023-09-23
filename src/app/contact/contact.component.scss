@@ -234,3 +234,12 @@
     width: 10px !important;
   }
 }
+
+@media (max-width: 280px) and (max-height: 655px){
+  .contact-info-section {
+    .contact-info-text {
+      width: 200px;
+      margin-left: 10px;
+    }
+  }
+}
