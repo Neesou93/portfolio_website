@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  scrollToTheTop(){
-    document.getElementById('welcome')?.scrollIntoView({behavior: 'smooth'})
+  scrollToTheTop(id:string){
+    document.getElementById(id)?.scrollIntoView({behavior: 'smooth'})
   }
 }

@@ -21,9 +21,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
+  z-index: 2;
   div {
-    line-height: 100%; /* 108px */
+    line-height: 100%;
   }
 }
 .rotat-text {
@@ -84,6 +84,7 @@
   align-items: center;
   gap: 42px;
   flex-shrink: 0;
+  margin-bottom: 50px;
 
   img {
     width: 30px;
