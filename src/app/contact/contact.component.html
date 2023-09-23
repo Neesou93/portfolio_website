@@ -25,8 +25,8 @@
                         [class.borderRed]="!nameInputValid && nameInputChecked" placeholder="Your name" required
                         [(ngModel)]="inputName" [ngModelOptions]="{standalone: true}"
                         (ngModelChange)="onInputChange(inputName,'name')" #nameField>
-                    <img *ngIf="nameInputValid && nameInputChecked" class="validIcon" src="/assets/img/green-check.svg">
-                    <img *ngIf="!nameInputValid && nameInputChecked" src="/assets/img/red-fail.svg">
+                    <img *ngIf="nameInputValid && nameInputChecked" class="validIcon" src="./assets/img/green-check.svg">
+                    <img *ngIf="!nameInputValid && nameInputChecked" src="./assets/img/red-fail.svg">
                 </div>
                 <div class="error-massage">
                     <p id="fail-text-name" *ngIf="!nameInputValid && nameInputChecked">
@@ -41,8 +41,8 @@
                         (ngModelChange)="onInputChange(inputEmail,'email')" #emailField>
 
                     <img *ngIf="emailInputValid && emailInputChecked" class="validIcon"
-                        src="/assets/img/green-check.svg">
-                    <img *ngIf="!emailInputValid && emailInputChecked" src="/assets/img/red-fail.svg">
+                        src="./assets/img/green-check.svg">
+                    <img *ngIf="!emailInputValid && emailInputChecked" src="./assets/img/red-fail.svg">
                 </div>
                 <div class="error-massage">
                     <p id="fail-text-email" *ngIf="!emailInputValid && emailInputChecked">
@@ -56,8 +56,8 @@
                         required [(ngModel)]="inputMassage" [ngModelOptions]="{standalone: true}"
                         (ngModelChange)="onInputChange(inputMassage,'massage')" #messageField></textarea>
                     <img *ngIf="massageInputValid && massageInputChecked" class="validIcon"
-                        src="/assets/img/green-check.svg">
-                    <img *ngIf="!massageInputValid && massageInputChecked" src="/assets/img/red-fail.svg">
+                        src="./assets/img/green-check.svg">
+                    <img *ngIf="!massageInputValid && massageInputChecked" src="./assets/img/red-fail.svg">
                 </div>
                 <div class="error-massage">
                     <p id="fail-text-massage" *ngIf="!massageInputValid && massageInputChecked">
