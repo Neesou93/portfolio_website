@@ -4,21 +4,25 @@
         <h1>Contact</h1>
         <div class="line-contact line-blue"></div>
     </div>
-    <div style="display: flex; justify-content: space-between;">
+    <div class="contact-content">
+
         <div class="contact-info-section">
+            <!--
             <div class="info-header">
                 <div class="line-info-contact"></div>
                 <h2>Got a problem to solve?</h2>
-            </div>
+            </div> -->
             <p class="contact-info-text">Contact me through this form, I am interested in hearing you, knowing your
                 ideas and contributing to your
                 projects with my work.</p>
             <p class="contact-info-text">Need a Frontend developer? <b>Contact me!</b></p>
         </div>
+
         <div class="contact-form-section">
             <form (submit)="sendMessage()" #myForm>
                 <div class="inputfild-box">
-                    <input type="text" name="name" class="name-input input-default" [class.borderRed]="!nameInputValid && nameInputChecked" placeholder="Your name" required
+                    <input type="text" name="name" class="name-input input-default"
+                        [class.borderRed]="!nameInputValid && nameInputChecked" placeholder="Your name" required
                         [(ngModel)]="inputName" [ngModelOptions]="{standalone: true}"
                         (ngModelChange)="onInputChange(inputName,'name')" #nameField>
                     <img *ngIf="nameInputValid && nameInputChecked" class="validIcon" src="/assets/img/green-check.svg">
@@ -31,7 +35,8 @@
                 </div>
 
                 <div class="inputfild-box">
-                    <input type="email" class="email-input input-default" [class.borderRed]="!emailInputValid && emailInputChecked" placeholder="Your email" required
+                    <input type="email" class="email-input input-default"
+                        [class.borderRed]="!emailInputValid && emailInputChecked" placeholder="Your email" required
                         [(ngModel)]="inputEmail" [ngModelOptions]="{standalone: true}"
                         (ngModelChange)="onInputChange(inputEmail,'email')" #emailField>
 
@@ -46,8 +51,9 @@
                 </div>
 
                 <div class="inputfild-box">
-                    <textarea type="text" name="message" class="message-input input-default" [class.borderRed]="!massageInputValid && massageInputChecked" placeholder="Your message" required
-                        [(ngModel)]="inputMassage" [ngModelOptions]="{standalone: true}"
+                    <textarea type="text" name="message" class="message-input input-default"
+                        [class.borderRed]="!massageInputValid && massageInputChecked" placeholder="Your message"
+                        required [(ngModel)]="inputMassage" [ngModelOptions]="{standalone: true}"
                         (ngModelChange)="onInputChange(inputMassage,'massage')" #messageField></textarea>
                     <img *ngIf="massageInputValid && massageInputChecked" class="validIcon"
                         src="/assets/img/green-check.svg">
@@ -68,7 +74,8 @@
                 </div>
             </form>
             <Div style="height: 120px;">
-                <h1 *ngIf="messageSend" style="text-align: center;">Your message is send! <br>Thank you for contacting me.</h1>
+                <h1 *ngIf="messageSend" style="text-align: center;">Your message is send! <br>Thank you for contacting
+                    me.</h1>
             </Div>
 
         </div>

@@ -7,7 +7,13 @@
   flex-direction: column;
 }
 
+.about-me-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
 .about-me-text-section {
+  z-index: 10;
   width: 471px;
   //margin-left: 100px;
   line-height: 120%;
@@ -39,13 +45,13 @@
 }
 
 .halfbody-picture-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   width: 50%;
   img {
     width: 593px;
   }
-  background-image: url('/assets/img/color_about_me.png');
+  background-image: url("/assets/img/color_about_me.png");
   object-fit: fill;
   background-repeat: no-repeat;
 }
@@ -55,4 +61,12 @@
   position: absolute;
   top: 1360px;
   z-index: 1;
+}
+
+@media (max-width: 950px){
+  .about-me-content{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }

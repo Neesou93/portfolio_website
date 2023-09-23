@@ -6,6 +6,12 @@
   flex-direction: column;
 }
 
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
 .contact-header {
   margin-top: 75px;
   width: 100%;
@@ -19,7 +25,7 @@
     font-size: 90px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; 
+    line-height: 120%;
   }
 
   .line-blue {
@@ -33,13 +39,14 @@
 }
 
 .contact-info-section {
+  margin-bottom: 66px;
   .contact-info-text {
     width: 473px;
     margin-left: 100px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
   }
   .info-header {
     display: flex;
@@ -57,7 +64,7 @@
       font-size: 32px;
       font-style: normal;
       font-weight: 700;
-      line-height: 120%; 
+      line-height: 120%;
     }
   }
 }
@@ -73,7 +80,7 @@
     display: flex;
     position: relative;
 
-    img{
+    img {
       position: absolute;
       top: 20px;
       right: 15px;
@@ -150,20 +157,20 @@
   -moz-appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid $light-blue; 
-  background-color: transparent; 
-  border-radius: 4px; 
+  border: 2px solid $light-blue;
+  background-color: transparent;
+  border-radius: 4px;
   cursor: pointer;
-  position: relative; 
+  position: relative;
   &:checked {
     &::before {
-      content: ""; 
+      content: "";
       position: absolute;
       top: 0px;
       left: 4px;
       width: 5px;
       height: 10px;
-      border: 2px solid $light-blue; 
+      border: 2px solid $light-blue;
       border-top: none;
       border-left: none;
       transform: rotate(45deg);
@@ -171,15 +178,44 @@
   }
 }
 
-.error-massage{
+.error-massage {
   display: flex;
   align-items: center;
   height: 50px;
-  p{
+  p {
     color: red;
   }
 }
 
-.borderRed{
+.borderRed {
   border: 2px solid red !important;
+}
+
+@media (max-width: 1150px) {
+  .contact-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+  }
+  .contact-form-section {
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-header {
+    h1 {
+      font-size: 50px;
+    }
+  }
+  .contact-info-section {
+    .contact-info-text {
+      width: 350px;
+      margin-left: 10px;
+    }
+  }
+  .line-info-contact {
+    width: 10px !important;
+  }
 }

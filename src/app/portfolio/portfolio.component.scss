@@ -30,7 +30,7 @@
 }
 
 .portfolio-content-section {
-  margin: 50px 0;
+  margin: 50px 0px;
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
@@ -40,7 +40,7 @@
 }
 
 .portfolio-object {
-  width: 40vw;
+  width: 600px;
   height: 600px;
   border: 1px solid $light-blue;
   border-radius: 15px;
@@ -126,5 +126,35 @@
     .script-text {
       color: $light-blue;
     }
+  }
+}
+
+@media (max-width: 650px) {
+  
+  .portfolio-headline{
+    h2{
+      font-size: 50px;
+    }
+  }
+  .portfolio-object{
+    width: 70%;
+    height: min-content;
+    img{
+      width: 70%;
+      height: 70%;
+    }
+  }
+  .object-content{
+    h2{
+      font-size: 1rem;
+    }
+    div{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+  .portfolio-subline{
+    width: 250px;
   }
 }

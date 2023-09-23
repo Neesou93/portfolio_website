@@ -3,8 +3,8 @@
     <div class="icon" *ngFor="let item of icons; let i = index"> <img src="/assets/img/{{ item }}"> <p>{{ icons_text[i] }}</p></div>
     </div>
     <div class="skill-text">
-        <div style="display: flex; align-items: center; gap: 41px;"><h2>Skills</h2><div class="line-skills"></div></div>
-        <div style="width: 471px; margin: 0px 0px 47px 0px;"><p>I have gained experience in building projects with various front end technologies and concepts</p></div>
-        <div class="cta-button-touch" (click)="scrollToTheContact()">Get in touch</div>
+        <div class="skills-headline"><h2>Skills</h2><div class="line-skills"></div></div>
+        <div class="skill-text-description"><p>I have gained experience in building projects with various front end technologies and concepts</p></div>
+        <div class="cta-button-touch d-none" (click)="scrollToTheContact()">Get in touch</div>
     </div>
 </div>

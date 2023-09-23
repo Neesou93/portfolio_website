@@ -38,3 +38,23 @@
     }
   }
 }
+
+.menu-button{
+  display: none;
+}
+
+@media (max-width: 750px){
+  .d-none-menu{
+    display: none;
+  }
+  .menu-button{
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    width: 30px;
+    gap: 13px;
+  }
+  .header-section{
+    padding: 37px 25px;
+  }
+}
