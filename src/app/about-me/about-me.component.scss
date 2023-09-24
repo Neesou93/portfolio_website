@@ -14,6 +14,7 @@
   justify-content: space-around;
   width: 100%;
 }
+
 .about-me-text-section {
   z-index: 10;
   width: 471px;
@@ -25,6 +26,7 @@
     font-style: normal;
     font-weight: 700;
   }
+
   p {
     font-size: 16px;
     font-style: normal;
@@ -50,9 +52,11 @@
   display: flex;
   justify-content: center;
   width: 50%;
+
   img {
     width: 593px;
   }
+
   background-image: url("/assets/img/color_about_me.png");
   object-fit: fill;
   background-repeat: no-repeat;
@@ -61,42 +65,62 @@
 .vector-about-me {
   width: 100%;
   position: absolute;
-  top: 1260px;
-  z-index: 0;
+  top: 140vh;
 }
 
-@media (max-width: 950px){
-  .about-me-content{
+@media (max-width: 950px) {
+  .about-me-content {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
   }
+  .vector-about-me{
+  top: 145vh
+  }
+  .halfbody-picture-section{
+    img{
+      width: 70vw;
+    }
+  }
 }
 
-@media (max-width:1600px){
+@media (max-width: 800px){
   .vector-about-me{
-    top: 1260px
+    top: 125vh;
+  }
+  .halfbody-picture-section{
+    img{
+      width: 60vw;
+    }
   }
 }
-@media (max-width: 540px){
-  .about-me-text-section{
+@media (max-width: 540px) {
+  .about-me-text-section {
     width: 80%;
-    h2{
+
+    h2 {
       font-size: 60px;
     }
+
     p {
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
     }
   }
+  .vector-about-me{
+    top: 120vh;
+  }
 }
-@media (max-width: 380px){
-  .about-me-text-section{
+
+@media (max-width: 390px) {
+  .about-me-text-section {
     width: 80%;
-    h2{
+
+    h2 {
       font-size: 50px;
     }
+
     p {
       font-size: 16px;
       font-style: normal;
@@ -104,6 +128,8 @@
     }
   }
 }
+
+/*
 @media (max-width: 380px) and (max-height: 670px){
   .about-me-text-section{
     width: 80%;
@@ -253,6 +279,19 @@
   .halfbody-picture-section{
     img{
       width: 50vw;
+    }
+  }
+}
+*/
+
+@media (max-height: 667px) {
+  //.vector-about-me {
+    //top: 125vh;
+  //}
+
+  .halfbody-picture-section {
+    img {
+      width: 70vw;
     }
   }
 }
