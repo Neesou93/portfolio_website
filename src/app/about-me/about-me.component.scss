@@ -83,6 +83,17 @@
     }
   }
 }
+@media (max-height: 1200px){
+  .vector-about-me{
+    top: 130vh;
+  }
+}
+
+@media (max-width: 1050px) and (max-height: 1000px){
+  .vector-about-me{
+    top: 150vh;
+  }
+}
 
 @media (max-width: 800px){
   .vector-about-me{
@@ -94,6 +105,16 @@
     }
   }
 }
+
+@media (max-height: 667px) {
+
+  .halfbody-picture-section {
+    img {
+      width: 70vw;
+    }
+  }
+}
+
 @media (max-width: 540px) {
   .about-me-text-section {
     width: 80%;
@@ -125,173 +146,6 @@
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
-    }
-  }
-}
-
-/*
-@media (max-width: 380px) and (max-height: 670px){
-  .about-me-text-section{
-    width: 80%;
-    h2{
-      font-size: 50px;
-    }
-    p {
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-    }
-  }
-  .vector-about-me{
-    top: 870px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 80vw;
-    }
-  }
-}
-
-@media (max-width: 415px) and (max-height: 900px){
-
-  .vector-about-me{
-    top: 1120px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 360px) and (max-height: 740px){
-
-  .vector-about-me{
-    top: 970px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 412px) and (max-height: 915px){
-
-  .vector-about-me{
-    top: 1160px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 820px) and (max-height: 1180px){
-
-  .vector-about-me{
-    top: 1630px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 770px) and (max-height: 1024px){
-
-  .vector-about-me{
-    top: 1530px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 915px) and (max-height: 1370px){
-
-  .vector-about-me{
-    top: 1830px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 540px) and (max-height: 720px){
-
-  .vector-about-me{
-    top: 1050px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 280px) and (max-height: 655px){
-  .about-me-text-section{
-    width: 80%;
-    h2{
-      font-size: 40px;
-    }
-    p {
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-    }
-  }
-
-  .vector-about-me{
-    top: 820px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 415px) and (max-height: 915px){
-
-  .vector-about-me{
-    top: 1150px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 90vw;
-    }
-  }
-}
-
-@media (max-width: 1024px) and (max-height: 600px){
-
-  .vector-about-me{
-    top: 1000px;
-  }
-  .halfbody-picture-section{
-    img{
-      width: 50vw;
-    }
-  }
-}
-*/
-
-@media (max-height: 667px) {
-  //.vector-about-me {
-    //top: 125vh;
-  //}
-
-  .halfbody-picture-section {
-    img {
-      width: 70vw;
     }
   }
 }

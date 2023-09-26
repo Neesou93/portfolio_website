@@ -12,6 +12,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
+import { HeaderContextMenuComponent } from './header-context-menu/header-context-menu.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
     WelcomeComponent,
     FooterComponent,
     ContactComponent,
+    HeaderContextMenuComponent,
   ],
   imports: [
     BrowserModule,

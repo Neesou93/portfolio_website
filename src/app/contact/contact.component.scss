@@ -235,6 +235,23 @@
   }
 }
 
+@media (max-width: 400px) {
+  .contact-header {
+    h1 {
+      font-size: 50px;
+    }
+  }
+  .contact-info-section {
+    .contact-info-text {
+      width: 250px;
+      margin-left: 10px;
+    }
+  }
+  .line-info-contact {
+    width: 10px !important;
+  }
+}
+
 @media (max-width: 280px) and (max-height: 655px){
   .contact-info-section {
     .contact-info-text {

@@ -5,9 +5,10 @@
         <a (click)="scrollToTheTop('skills')">Skills</a>
         <a (click)="scrollToTheTop('portfolio')">Portfolio</a>
     </div>
-    <div class="menu-button">
-        <img src="/assets/img/Burger-large.svg">
-        <img src="/assets/img/Burger-large.svg">
-        <img src="/assets/img/Burger-large.svg">
+    <div class="menu-button" (click)="openContext()" id="burger-icon">
+        <img src="/assets/img/Burger-large.svg" id="burger-line-1">
+        <img src="/assets/img/Burger-large.svg" id="burger-line-2">
+        <img src="/assets/img/Burger-large.svg" id="burger-line-3">
     </div>
+    <img src="/assets/img/Closing_Burger_Menu.svg" id="burger-cross" class="d-none" (click)="closeContext()">
 </div>
