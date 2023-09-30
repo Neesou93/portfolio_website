@@ -51,15 +51,14 @@
 .halfbody-picture-section {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 50%;
 
   img {
-    width: 593px;
+    width: 750px;
   }
 
-  background-image: url("/assets/img/color_about_me.png");
-  object-fit: fill;
-  background-repeat: no-repeat;
+  //background-image: url("/assets/img/color_about_me.png");
 }
 
 .vector-about-me {
@@ -83,7 +82,7 @@
     }
   }
 }
-@media (max-height: 1200px){
+@media (min-height: 1200px){
   .vector-about-me{
     top: 130vh;
   }
