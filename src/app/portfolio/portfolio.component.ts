@@ -18,7 +18,7 @@ export class PortfolioComponent {
     },
     {
       image: 'Pollo loco 2.png',
-      git: 'https://github.com/Neesou93/El_Pollo_Loco2.0',
+      git: 'https://github.com/Neesou93/join',
       link: 'https://pascal-dietz.developerakademie.net/JOIN/',
       title: 'Join',
       description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories',
@@ -33,4 +33,8 @@ export class PortfolioComponent {
       script: 'Angular | Firebase'
     }
   ]
+
+  openLink(link:string){
+    window.open(link);
+  }
 }

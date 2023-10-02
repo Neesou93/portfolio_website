@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { timeout } from 'rxjs';
 
 @Component({
@@ -29,6 +30,8 @@ export class ContactComponent {
   inputMassage: string = '';
   isValid: boolean = false;
 
+  constructor(private router: Router) {}
+  
   onInputChange(inputValue: string, name: string) {
     if (name == 'name') {
       if (inputValue) {
@@ -126,5 +129,9 @@ export class ContactComponent {
 
       
     }
+  }
+
+  openPrivacyPolicy(){
+    window.open('http://localhost:4200/privacy-policy')
   }
 }

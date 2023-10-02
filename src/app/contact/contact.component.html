@@ -68,7 +68,7 @@
                     <div style="display: flex; align-items: center;">
                         <input class="checkbox-pp" type="checkbox" [(ngModel)]="checkboxValue" name="private_policy"
                             id="private_policy" required #privatePolicyCheckbox><label for="private_policy">I've read
-                            the <a>privacy policy</a> and agree to the processing of my data as outlined.</label>
+                            the <a (click)="openPrivacyPolicy()">privacy policy</a> and agree to the processing of my data as outlined.</label>
                     </div>
                     <button [disabled]="!checkboxValue" #sendButton>Send message</button>
                 </div>
