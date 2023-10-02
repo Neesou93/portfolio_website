@@ -13,6 +13,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderContextMenuComponent } from './header-context-menu/header-context-menu.component';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { DataProtComponent } from './data-prot/data-prot.component';
+import { MainSiteComponent } from './main-site/main-site.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { HeaderContextMenuComponent } from './header-context-menu/header-context
     FooterComponent,
     ContactComponent,
     HeaderContextMenuComponent,
+    ImpressumComponent,
+    DataProtComponent,
+    MainSiteComponent,
   ],
   imports: [
     BrowserModule,

@@ -152,6 +152,7 @@
 }
 
 .checkbox-pp {
+  margin-right: 15px;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -178,6 +179,12 @@
   }
 }
 
+label{
+  a{
+    cursor: pointer;
+    color: $light-blue;
+  }
+}
 .error-massage {
   display: flex;
   align-items: center;

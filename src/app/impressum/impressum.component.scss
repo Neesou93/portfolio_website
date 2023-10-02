@@ -1,0 +1,19 @@
+.impressum-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.impressum-content {
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 450px) {
+  .impressum-content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

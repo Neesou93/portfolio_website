@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,10 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   public scrollY: any;
   public scrollX: any;
-  scrollToTheTop(id: string) {
+  constructor(private router: Router) {
+  }
+  async scrollToTheTop(id: string) {
+    await this.router.navigateByUrl('/');
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   }
 
